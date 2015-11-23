@@ -7,6 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.expected_conditions import *
+import time
 
 import unittest, time, re
 
@@ -86,6 +87,29 @@ class KnastyaTests(unittest.TestCase):
         driver.find_element_by_css_selector("img[alt=\"Remove\"]").click()
         self.assertRegexpMatches(self.close_alert_and_get_its_text(), r"^Are you sure you want to remove this[\s\S]$")
         driver.find_element_by_css_selector("nav")
+
+    def test_find_movies(self):
+        self.do_login("admin", "admin")
+        driver = self.driver
+        film_cnt=len(driver.find_elements_by_css_selector("div#results a"))
+        print " cnt"
+        print film_cnt
+        driver.find_element_by_id("q").clear()
+        driver.find_element_by_id("q").send_keys("Happy Story"+ Keys.RETURN)
+        assert len(driver.find_elements_by_css_selector("div#results a")) ==1
+        driver.find_element_by_id("q").clear()
+        driver.find_element_by_id("q").send_keys(Keys.ENTER)
+        time.sleep(4)
+        assert len(driver.find_elements_by_css_selector("div#results a"))==film_cnt
+        driver.find_element_by_id("q").clear()
+        driver.find_element_by_id("q").send_keys("Long Story abracadabra"+ Keys.RETURN)
+        driver.find_element_by_id("q").send_keys(Keys.RETURN)
+        driver.find_element_by_xpath("//div[@id='results']//div[.='No movies']")
+#        time.sleep(2)
+#        assert len(driver.find_elements_by_css_selector("div#results a"))==0
+
+
+
 
     def tearDown(self):
         self.driver.quit()

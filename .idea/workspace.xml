@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b4e9ca-578f-4c91-aa27-5d20dc34f67f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php4dvd/test_login.py" afterPath="$PROJECT_DIR$/php4dvd/test_login.py" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php4dvd/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58311343">
-              <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.067510545">
+              <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -129,7 +128,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ENV/Scripts/python2.7.exe" />
   </component>
-  <component name="RunManager" selected="Python tests.py.test in KnastyaTests">
+  <component name="RunManager" selected="Python tests.py.test in KnastyaTests and test_find_movies">
     <configuration default="false" name="py.test in KnastyaTests" type="tests" factoryName="py.test" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -173,30 +172,6 @@
       <option name="USE_PATTERN" value="false" />
       <option name="testToRun" value="$PROJECT_DIR$/php4dvd/test_login.py" />
       <option name="keywords" value="KnastyaTests and test_add_film_corr" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="true" />
-      <method />
-    </configuration>
-    <configuration default="false" name="py.test in KnastyaTests and test_add_film_not_corr" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Sel_py_training_kuzn" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/php4dvd/test_login.py" />
-      <option name="keywords" value="KnastyaTests and test_add_film_not_corr" />
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="true" />
@@ -248,6 +223,30 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test in KnastyaTests and test_find_movies" type="tests" factoryName="py.test" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Sel_py_training_kuzn" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="$PROJECT_DIR$/php4dvd/test_login.py" />
+      <option name="keywords" value="KnastyaTests and test_find_movies" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -375,17 +374,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_add_film_corr" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_add_film_not_corr" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_remove_film" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_remove_film" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_find_movies" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_remove_film" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_add_film_corr" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_add_film_not_corr" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_find_movies" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_remove_film" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_login.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in KnastyaTests and test_add_film_corr" />
       </list>
     </recent_temporary>
   </component>
@@ -403,35 +402,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_KnastyaTests - 2015.11.23 at 00h 45m 29s.xml">
-      <configuration name="py.test in KnastyaTests" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.23 at 23h 43m 34s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests - 2015.11.23 at 00h 46m 39s.xml">
-      <configuration name="py.test in KnastyaTests" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.23 at 23h 45m 24s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests - 2015.11.23 at 01h 09m 17s.xml">
-      <configuration name="py.test in KnastyaTests" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.23 at 23h 47m 25s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests - 2015.11.23 at 01h 17m 48s.xml">
-      <configuration name="py.test in KnastyaTests" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.23 at 23h 48m 27s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests - 2015.11.23 at 01h 53m 51s.xml">
-      <configuration name="py.test in KnastyaTests" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 40m 27s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests_and_test_add_film_corr - 2015.11.23 at 00h 49m 09s.xml">
-      <configuration name="py.test in KnastyaTests and test_add_film_corr" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 41m 41s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests_and_test_remove_film - 2015.11.23 at 01h 11m 20s.xml">
-      <configuration name="py.test in KnastyaTests and test_remove_film" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 44m 50s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_KnastyaTests_and_test_remove_film - 2015.11.23 at 01h 51m 08s.xml">
-      <configuration name="py.test in KnastyaTests and test_remove_film" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 46m 11s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_py - 2015.11.23 at 00h 47m 35s.xml">
-      <configuration name="py.test in test_login.py" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 47m 40s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_login_py - 2015.11.23 at 00h 54m 29s.xml">
-      <configuration name="py.test in test_login.py" configurationId="tests" />
+    <history-entry file="py_test_in_KnastyaTests_and_test_find_movies - 2015.11.24 at 00h 49m 57s.xml">
+      <configuration name="py.test in KnastyaTests and test_find_movies" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -443,11 +442,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29706392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.54231435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5250432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30397236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -489,11 +488,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/php4dvd/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php4dvd/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php4dvd/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -514,10 +541,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/_pytest/capture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/_pytest/vendored_packages/pluggy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37866667">
+          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/_pytest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ENV/Lib/site-packages/_pytest/unittest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="392" column="0" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/php4dvd/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58311343">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.067510545">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
