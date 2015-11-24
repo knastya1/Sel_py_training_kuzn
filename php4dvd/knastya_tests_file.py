@@ -70,13 +70,12 @@ def test_remove_film(app):
 def test_find_movies(app):
         do_login(app.driver, User.Admin())
         knwait = WebDriverWait(app.driver, 30)
-        film_cnt=len(app.driver.find_elements_by_css_selector("div#results a"))
         app.driver.find_element_by_id("q").clear()
         app.driver.find_element_by_id("q").send_keys("1234567890!@#$%^&*()_"+ Keys.RETURN)
-        knwait.until(presence_of_element_located((By.XPATH,"//div[@id='results']/div[.='No movies where found.']" )))
+        app.wait.until(presence_of_element_located((By.XPATH,"//div[@id='results']/div[.='No movies where found.']" )))
         app.driver.find_element_by_id("q").clear()
         app.driver.find_element_by_id("q").send_keys("Happy Story"+ Keys.RETURN)
-        knwait.until(presence_of_element_located((By.XPATH,"//div[.='Happy Story']")))
+        app.wait.until(presence_of_element_located((By.XPATH,"//div[.='Happy Story']")))
 
 #        time.sleep(2)
 #        assert len(driver.find_elements_by_css_selector("div#results a"))==0
