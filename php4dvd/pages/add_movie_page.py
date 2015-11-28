@@ -27,5 +27,9 @@ class AddMoviePage(InternalPage):
         return self.driver.find_element_by_name("notes")
 
     @property
+    def label_err(self):
+        return self.is_element_visible((By.CSS_SELECTOR, "label.error"))
+
+    @property
     def submit_btn(self):
         return self.driver.find_element_by_id("submit")
